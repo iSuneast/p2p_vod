@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\infrastructure">
+      <UniqueIdentifier>{f70b5191-7f78-4a95-aa06-f8e48852ebc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\infrastructure\lib">
+      <UniqueIdentifier>{99d84f61-1e60-454e-bf2c-2f3c7deb4436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Protocol">
+      <UniqueIdentifier>{f9e51ed1-3721-4929-90a5-f43d6ad4fb7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NetworkInfra">
+      <UniqueIdentifier>{86b573fb-fb13-44ee-9d33-b81013e1ba3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network">
+      <UniqueIdentifier>{3e505316-9506-4bf5-a024-f510097e3d88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BTCNetworkBuilder.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomSeek.h">
+      <Filter>Header Files\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\DynamicBitsetEx.h">
+      <Filter>Header Files\infrastructure\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\Log.h">
+      <Filter>Header Files\infrastructure\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\RandomVariable.h">
+      <Filter>Header Files\infrastructure\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\Header.h">
+      <Filter>Header Files\infrastructure\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="base.h">
+      <Filter>Header Files\infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\UnorderedVector.h">
+      <Filter>Header Files\infrastructure\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Request.h">
+      <Filter>Header Files\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="PeerStat.h">
+      <Filter>Header Files\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\DynamicBitset.h">
+      <Filter>Header Files\infrastructure\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicNetwork.h">
+      <Filter>Header Files\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Peer.h">
+      <Filter>Header Files\NetworkInfra</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkOperator.h">
+      <Filter>Header Files\NetworkInfra</Filter>
+    </ClInclude>
+    <ClInclude Include="monster.h">
+      <Filter>Header Files\NetworkInfra</Filter>
+    </ClInclude>
+    <ClInclude Include="PANetworkBuilder.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandLineParser.h">
+      <Filter>Header Files\infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandLine.h">
+      <Filter>Header Files\infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="TwitterNetworkBuilder.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkBuilder.h">
+      <Filter>Header Files\NetworkInfra</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cmd.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
